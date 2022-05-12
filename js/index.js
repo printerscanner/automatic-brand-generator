@@ -1,5 +1,5 @@
 async function getFont() {
-	const response = await fetch('https://www.googleapis.com/webfonts/v1/webfonts?key=AIzaSyAVBqFuwOJqTX5Aw46-xQ7Z-gGcWqFf6gI');
+	const response = await fetch('https://www.googleapis.com/webfonts/v1/webfonts?key=#');
 	const data = await response.json();
 	random_font = data.items[Math.floor(Math.random() * data.items.length)].family
 	document.getElementById('font').innerHTML = random_font;
