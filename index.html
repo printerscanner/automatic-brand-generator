@@ -13,21 +13,22 @@
 </head>
 
 <body>
-	<section>
-        <img class="right" src="assets/logo.svg" alt="">
-		<button onclick="getFont()">Pick your Font</button>
-		<button onclick="setFontSize()">Pick your Font Size</button>
-		<button onclick="setColor('--background-color', )">Pick your Background Color</button>
-		<button onclick="setColor('--text-color', )">Pick your Text Color</button>
-		<button onclick="setColor('--accent-color', )">Pick your Accent Color</button>
-		<button onclick="setColor('--muted-color', )">Pick your Muted Color</button>
-        <button onclick="exportHTML()">Export your site</button>
-	</section>
-	<section>
-		<h1 class="title">Brand Generator</h1>
+	<main>
+		<section>
+			<img src="assets/logo.svg" alt="">
+			<button onclick="getFont()">Pick your Font</button>
+			<button onclick="setFontSize()">Pick your Font Size</button>
+			<button onclick="setColor('--background-color', )">Pick your Background Color</button>
+			<button onclick="setColor('--text-color', )">Pick your Text Color</button>
+			<button onclick="setColor('--accent-color', )">Pick your Accent Color</button>
+			<button onclick="setColor('--muted-color', )">Pick your Muted Color</button>
+			<button onclick="exportHTML()">Export your site</button>
+		</section>
+		<h1>Brand Generator</h1>
 
 		<section>
-			<h1>Typeface</h1>
+			<h2>Typeface</h2>
+			<p>We use default system fonts to optimize your webpage.</p>
 			<h1>Heading 1</h1>
 			<h2>Heading 2</h2>
 			<h3>Heading 3</h3>
@@ -37,35 +38,24 @@
 		</section>
 
 		<section>
-			<h1>Paragraphs</h1>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos error accusantium beatae! Maiores eaque
-				corrupti nulla! Animi facilis non, sint corrupti dignissimos voluptate porro, magni, excepturi rem
-				ratione
-				quisquam possimus!</p>
-
+			<h2>Paragraphs</h2>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos error accusantium beatae! Maiores eaqu corrupti nulla! Animi facilis non, sint corrupti dignissimos voluptate porro, magni, excepturi rem ratione quisquam possimus!</p>
 		</section>
-		<section>
-			<h1>Blockquotes</h1>
-			<blockquote>
-				<p>It is better by noble boldness to run the risk of being subject to half of the evils we anticipate
-					than
-					to remain in cowardly listlessness for fear of what might happen.</p>
 
+		<section>
+			<h2>Blockquotes</h2>
+			<blockquote>
+				<p>It is better by noble boldness to run the risk of being subject to half of the evils we anticipate than
+					to remain in cowardly listlessness for fear of what might happen.</p>
 				<cite><a href="#!">Herodotus</a></cite>
 			</blockquote>
-			<strong>Inline Quote </strong>
-			<p><q cite="https://developer.mozilla.org/en-US/docs/HTML/Element/q">This is
-					a short inline
-					quotation.</q></p>
 
+			<strong>Inline Quote </strong>
+			<p><q cite="https://developer.mozilla.org/en-US/docs/HTML/Element/q">This is a short inline quotation.</q></p>
 		</section>
 
-
-
 		<section>
-			<header>
-				<h1>Tables</h1>
-			</header>
+			<h2>Tables</h2>
 			<table>
 				<caption>Table Caption</caption>
 				<thead>
@@ -102,29 +92,26 @@
 						<td>Table Cell 4</td>
 					</tr>
 				</tbody>
-
 			</table>
-
 		</section>
 
 
 		<section>
-			<h1>Code</h1>
+			<h2>Code</h2>
 			<p><strong>Keyboard input: </strong> <kbd>Cmd</kbd></p>
 			<p><strong>Inline code: </strong> <code>console.log("Hello World");</code></p>
 			<p><strong>Output: </strong> <samp>Hello World</samp></p>
 			<p><strong>Code Block:</strong>
 				<pre>
 int main() {
-  printf("Hello, World!");
-  return 0;
+printf("Hello, World!");
+return 0;
 }
 </pre>
-
 		</section>
 
 		<section>
-			<h1>Form Inputs</h1>
+			<h2>Form Inputs</h2>
 			<p>Very basic input styling is also supported:</p>
 			<input type="text" placeholder="I'm a text input field">
 			<input type="email" placeholder="I'm an email input field">
@@ -133,7 +120,7 @@ int main() {
 		</section>
 
 		<section>
-			<h1>Images</h1>
+			<h2>Images</h2>
 			<h3>No <code>&lt;figure&gt;</code> element</h3>
 			<p><img src="https://picsum.photos/300/300" alt="Image alt text"></p>
 			<h3>Wrapped in a <code>&lt;figure&gt;</code> element, with a <code>&lt;figcaption&gt;</code></h3>
@@ -143,10 +130,8 @@ int main() {
 			</figure>
 		</section>
 
-
-
 		<section>
-			<h1>Lists</h1>
+			<h2>Lists</h2>
 			<h3>Definition List, DL</h3>
 			<dl>
 				<dt>Definition List Title, DT</dt>
@@ -160,9 +145,8 @@ int main() {
 			</ol>
 		</section>
 
-
 		<section>
-			<h1>Inline elements</h1>
+			<h2>Inline elements</h2>
 			<p><strong>Text Link: </strong> <a href="#!">Hover over this text link</a>.</p>
 			<p><strong>Strong: </strong>This element uses the <strong>strong tag</strong>.</p>
 			<p><strong>Emphasis: </strong><em>This text has added emphasis.</em></p>
@@ -182,7 +166,6 @@ int main() {
 			<p><strong>Mark: </strong>The <mark>mark element</mark> indicates a highlight.</p>
 			<p><strong>Variable: </strong>The <var>a<sup>n</sup> + b<sup>n</sup> = c<sup>n</sup></var>.</p>
 			<p><strong>Time: </strong>The time element: <time datetime="2013-04-06T12:32+00:00">2 weeks ago</time></p>
-
 		</section>
 
 		<section>
@@ -198,9 +181,9 @@ int main() {
 				<a href="https://github.com/printerscanner/automatically-generated-brand">Github</a>.</p>
 			<br></br>
 		</footer>
-		<script type="text/javascript" src="js/jszip.js"></script>
-		<script src="js/index.js"></script>
-		<script src="js/export.js"></script>
+	</main>
+	<script type="text/javascript" src="js/jszip.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/export.js"></script>
 </body>
-
 </html>
