@@ -27,18 +27,3 @@ function setFontSize() {
 	var options = ["large", "larger", "medium", "small", "smaller", "x-large", "x-small", "xx-large", "xx-small"];
 	document.body.style.fontSize = options[Math.floor(Math.random() * options.length)];
 }
-
-window.onscroll = function () {
-	myFunction()
-};
-
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-	if (window.pageYOffset >= sticky) {
-		navbar.classList.add("sticky")
-	} else {
-		navbar.classList.remove("sticky");
-	}
-}

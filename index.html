@@ -4,17 +4,29 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="icon" type="image/x-icon" href="/assets/favicon.svg">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Automatically Generated Brand</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="stylesheet" href="https://printerscanner.github.io/slightly-better-css/slightly-better.css">
 </head>
-
+<style>
+	.header {
+		background: white;
+		width: 100%;
+		display: flex;
+		position: absolute;
+		align-items: center;
+		margin: 0;
+		position: fixed;
+		top: 0;
+		top: 0;
+	}
+</style>
 <body>
-	<main>
-		<section>
-			<img src="assets/logo.svg" alt="">
+	
+		<header class="header">
 			<button onclick="getFont()">Pick your Font</button>
 			<button onclick="setFontSize()">Pick your Font Size</button>
 			<button onclick="setColor('--background-color', )">Pick your Background Color</button>
@@ -22,9 +34,9 @@
 			<button onclick="setColor('--accent-color', )">Pick your Accent Color</button>
 			<button onclick="setColor('--muted-color', )">Pick your Muted Color</button>
 			<button onclick="exportHTML()">Export your site</button>
-		</section>
+		</header>
 
-
+		<main>
 		<section>
 			<h1>Brand Generator</h1>
 			<h2>Typeface</h2>
